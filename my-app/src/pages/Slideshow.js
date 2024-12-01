@@ -4,8 +4,8 @@ import "./Slideshow.css";
 
 const Slideshow = () => {
   const images = [
-    "images/cf.jpg",
-    "images/cf4.jpg",
+    "images/banner.jpeg",
+    "images/slider1.jpeg",
     "images/cf2.jpg",
     "images/cf3.jpg"
   ];

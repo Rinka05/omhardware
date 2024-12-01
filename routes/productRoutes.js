@@ -11,6 +11,7 @@ import {
   productPhotoController,
   realtedProductController,
   updateProductController,
+  searchProductController,
 } from "../controllers/productController.js";
 import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
 import formidable from "express-formidable";
@@ -60,5 +61,18 @@ router.get('/related-product/:pid/:cid', realtedProductController);
 
 //category wise product
 router.get('/product-category/:slug', productCategoryController);
+
+
+//search product
+router.get("/search/:keyword", searchProductController);
+
+
+//similar product
+router.get("/related-product/:pid/:cid", realtedProductController);
+
+
+//category wise product
+router.get("/product-category/:slug", productCategoryController);
+
 
 export default router;
