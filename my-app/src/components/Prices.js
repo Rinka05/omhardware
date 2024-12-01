@@ -1,32 +1,37 @@
 export const Prices = [
     {
       _id: 0,
-      name: "0 to 190",
-      array: [0, 190],
+      name: "100 to 500",
+      array: [100, 500],
     },
     {
       _id: 1,
-      name: "200 to 390",
-      array: [200, 390],
+      name: "500 to 1000",
+      array: [500, 1000],
     },
     {
       _id: 2,
-      name: "400 to 500",
-      array: [400, 500],
+      name: "1000 to 1500",
+      array: [1000, 1500],
     },
     {
       _id: 3,
-      name: "600 to 700",
-      array: [600, 700],
+      name: "1600 to 2000",
+      array: [1600, 2000],
     },
     {
       _id: 4,
-      name: "800 to 900",
-      array: [800, 900],
+      name: "2000 to 2500",
+      array: [2000, 2500],
     },
     {
       _id: 4,
-      name: "1000 or more",
-      array: [1000, 99999],
+      name: "2500 or 3000",
+      array: [2500, 3000],
+    },
+    {
+      _id: 4,
+      name: "3500 or 4000",
+      array: [3500, 4000],
     },
   ];
