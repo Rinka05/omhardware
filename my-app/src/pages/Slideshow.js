@@ -4,10 +4,23 @@ import "./Slideshow.css";
 
 const Slideshow = () => {
   const images = [
-    "images/banner.jpeg",
     "images/slider1.jpeg",
-    "images/cf2.jpg",
-    "images/cf3.jpg"
+    "images/slider2.jpeg",
+    "images/slider3.jpeg",
+    "images/slider4.jpeg",
+    "images/slider5.jpeg",
+    "images/slider6.jpeg",
+    "images/slider7.jpeg",
+    "images/slider8.jpeg",
+    "images/slider9.jpeg",
+    "images/slider10.jpeg",
+    "images/slider11.jpeg",
+    "images/slider12.jpeg",
+    "images/slider13.jpeg",
+    "images/slider14.jpeg",
+    "images/slider15.jpeg",
+    "images/slider16.webp",
+    "images/slider17.webp",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
